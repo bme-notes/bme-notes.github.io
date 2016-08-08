@@ -1,0 +1,7 @@
+computer-engineering:
+  - name: Bevezetes a Szamitaselmeletbe 1.
+    shortname: BSZ1
+    repo: Bsz1-tetelek
+  - name: Bevezetes a Szamitaselmeletbe 2.
+    shortname: BSZ2
+    repo: Bsz2-tetelek
