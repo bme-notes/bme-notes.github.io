@@ -1,16 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <title>BME-VIK tételek</title>
-    <meta charset='utf-8'>
-  </head>
-  <body>
-    <h1>Mernokinformatikus</h1>
-    <ul>
-      {% for repo in site.data.repositories.computer-engineering %}
-        <li>{{ repo.name }}</li>
-      {% endfor %}
-    </ul>
-    <h1>Villamosmernok</h1>
-  </body>
-</html>
+---
+layout: index
+title: BME-VIK tetelek - index
+---
+
+<h1>Mernokinformatikus</h1>
+<ul>
+  {% for repo in site.data.repositories.computer-engineering %}
+    <li>{{ repo.name }}</li>
+  {% endfor %}
+</ul>
+<h1>Villamosmernok</h1>
+<ul>
+  {% for repo in site.data.repositories.electrical-engineering %}
+    <li>{{ repo.name }}</li>
+  {% endfor %}
+</ul>
+<h1>Kozos targyak</h1>
+<ul>
+  {% for repo in site.data.repositories.common %}
+    <li>{{ repo.name }}</li>
+  {% endfor %}
+</ul>
