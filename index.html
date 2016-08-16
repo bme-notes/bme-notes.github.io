@@ -6,18 +6,25 @@ title: BME-VIK tetelek - index
 <h1>Mernokinformatikus</h1>
 <ul>
   {% for repo in site.data.repositories.computer-engineering %}
-    <li>{{ repo.name }}</li>
+    <li>{{ repo.name }} - <a href='https://github.com/bme-vik/{{ repo.repo }}'>repository</a> - <span id='data-{{ repo.shortname }}'>Loading...</span></li>
   {% endfor %}
 </ul>
 <h1>Villamosmernok</h1>
 <ul>
   {% for repo in site.data.repositories.electrical-engineering %}
-    <li>{{ repo.name }}</li>
+    <li>{{ repo.name }} - <a href='https://github.com/bme-vik/{{ repo.repo }}'>repository</a> - <span id='data-{{ repo.shortname }}'>Loading...</span></li>
   {% endfor %}
 </ul>
 <h1>Kozos targyak</h1>
 <ul>
   {% for repo in site.data.repositories.common %}
-    <li>{{ repo.name }}</li>
+    <li>{{ repo.name }} - <a href='https://github.com/bme-vik/{{ repo.repo }}'>repository</a> - <span id='data-{{ repo.shortname }}'>Loading...</span></li>
   {% endfor %}
 </ul>
+
+<script src='main.js'></script>
+<script>
+  {% for repo in site.data.repositories.computer-engineering %}
+    loadRelease("{{ repo.shortname }}");
+  {% endfor %}
+</script>
