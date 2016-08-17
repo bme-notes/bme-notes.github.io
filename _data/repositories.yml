@@ -1,14 +1,16 @@
-computer-engineering:
-  - name: Bevezetes a Szamitaselmeletbe 1.
-    shortname: BSZ1
-    repo: Bsz1-tetelek
-  - name: Bevezetes a Szamitaselmeletbe 2.
-    shortname: BSZ2
-    repo: Bsz2-tetelek
-
-electrical-engineering:
-
-common:
-  - name: Teszt repo
-    shortname: test
-    repo: latex-test
+categories:
+  - title: computer-engineering
+    repositories:
+      - name: Bevezetes a Szamitaselmeletbe 1.
+        shortname: BSZ1
+        repo: Bsz1-tetelek
+      - name: Bevezetes a Szamitaselmeletbe 2.
+        shortname: BSZ2
+        repo: Bsz2-tetelek
+  - title: electrical-engineering
+    repositories:
+  - title: common
+    repositories:
+      - name: Teszt repo
+        shortname: test
+        repo: latex-test
