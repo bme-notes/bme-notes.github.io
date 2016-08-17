@@ -9,3 +9,6 @@ computer-engineering:
 electrical-engineering:
 
 common:
+  - name: Teszt repo
+    shortname: test
+    repo: latex-test

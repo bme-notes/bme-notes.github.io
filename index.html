@@ -25,6 +25,12 @@ title: BME-VIK tetelek - index
 <script src='main.js'></script>
 <script>
   {% for repo in site.data.repositories.computer-engineering %}
-    loadRelease("{{ repo.shortname }}");
+    loadRelease("{{ repo.repo }}", "{{ repo.shortname }}");
+  {% endfor %}
+  {% for repo in site.data.repositories.electrical-engineering %}
+    loadRelease("{{ repo.repo }}", "{{ repo.shortname }}");
+  {% endfor %}
+  {% for repo in site.data.repositories.common %}
+    loadRelease("{{ repo.repo }}", "{{ repo.shortname }}");
   {% endfor %}
 </script>
