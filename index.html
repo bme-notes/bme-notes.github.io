@@ -7,9 +7,10 @@ title: BME-VIK tetelek - index
   <h1 id='{{ category.title }}'>{{ category.title }}</h1>
   {% for repo in category.repositories %}
     <div class='pure-g'>
-      <div class='pure-u-1-3'><p>{{ repo.name }}</p></div>
-      <div class='pure-u-1-3'><p><a href='https://github.com/bme-vik/{{ repo.repo }}'>Repository</a></p></div>
-      <div class='pure-u-1-3'><p><span id='data-{{ repo.shortname }}'>Loading PDF...</span></p></div>
+      <div class='pure-u-1-4'><p>{{ repo.name }}</p></div>
+      <div class='pure-u-1-4'><p>{% if repo.website %}<a href='{{ repo.website }}'>website</a>{% else %}no website{% endif %}</p></div>
+      <div class='pure-u-1-4'><p><a href='https://github.com/bme-vik/{{ repo.repo }}'>repository</a></p></div>
+      <div class='pure-u-1-4'><p><span id='data-{{ repo.shortname }}'>loading PDF...</span></p></div>
     </div>
   {% endfor %}
 {% endfor %}

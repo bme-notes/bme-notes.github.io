@@ -4,9 +4,11 @@ categories:
       - name: Bevezetes a Szamitaselmeletbe 1.
         shortname: BSZ1
         repo: Bsz1-tetelek
+        website: http://cs.bme.hu/bsz1/
       - name: Bevezetes a Szamitaselmeletbe 2.
         shortname: BSZ2
         repo: Bsz2-tetelek
+        website: http://cs.bme.hu/bsz2/
   - title: electrical-engineering
     repositories:
   - title: common
