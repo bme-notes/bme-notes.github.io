@@ -8,13 +8,13 @@ function loadRelease(repo, shortname) {
       let url = assets[0].browser_download_url;
       let date = new Date(data.published_at);
       if (url != null) {
-        container.innerHTML = "<a href='" + url + "'>download PDF (" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ")</a>";
+        container.innerHTML = "<a href='" + url + "' class='pure-button pure-button-primary'>Download PDF (" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ")</a>";
       } else {
-        container.innerHTML = "there was a problem with the release";
+        container.innerHTML = "<a class='pure-button pure-button-disabled' href='#'>An error occurred</a>";
       }
     },
     error: function() {
-      container.innerHTML = "no release exists yet";
+      container.innerHTML = "<a class='pure-button pure-button-disabled' href='#'>No release</a>";
     }
   });
 }
