@@ -14,7 +14,7 @@ categories:
         official-note:
         website: http://cs.bme.hu/bsz1/
       - name: Fizika 1.
-        shortname: fiz1
+        shortname: fiz1i
         repo:
         semester: 1
         official-note:
@@ -26,7 +26,7 @@ categories:
         official-note:
         website:
       - name: A programozás alapjai 1.
-        shortname: prog1
+        shortname: prog1i
         repo:
         semester: 1
         official-note:
@@ -44,13 +44,13 @@ categories:
         official-note:
         website: http://cs.bme.hu/bsz2/
       - name: Fizika 2.
-        shortname: fiz2
+        shortname: fiz2i
         repo:
         semester: 2
         official-note:
         website:
       - name: A programozás alapjai 2.
-        shortname: prog2
+        shortname: prog2i
         repo:
         semester: 2
         official-note:
@@ -68,7 +68,7 @@ categories:
         official-note:
         website:
       - name: A programozás alapjai 3.
-        shortname: prog3
+        shortname: prog3i
         repo:
         semester: 3
         official-note:
@@ -134,7 +134,7 @@ categories:
         official-note:
         website:
       - name: Adatbázisok laboratórium
-        shortname: adatlab
+        shortname: adatblab
         repo:
         semester: 4
         official-note:
@@ -170,13 +170,13 @@ categories:
         official-note:
         website:
       - name: IT eszközök technológiája
-        shortname: iteszk
+        shortname: elektro
         repo:
         semester: 5
         official-note:
         website:
       - name: Mobil és webes szoftverek
-        shortname: mobil
+        shortname: mobilweb
         repo:
         semester: 5
         official-note:
@@ -194,7 +194,7 @@ categories:
         official-note:
         website:
       - name: Információs rendszerek üzemeltetése
-        shortname: info
+        shortname: iru
         repo:
         semester: 6
         official-note:
