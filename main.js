@@ -1,7 +1,7 @@
 function loadRelease(repo, shortname) {
   let container = document.getElementById("data-" + shortname);
   $.ajax({
-    url: "https://api.github.com/repos/bme-vik/" + repo + "/releases/latest",
+    url: "https://api.github.com/repos/bme-notes/" + repo + "/releases/latest",
     dataType: "json",
     success: function(data) {
       let assets = data.assets;

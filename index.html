@@ -1,6 +1,6 @@
 ---
 layout: index
-title: BME-VIK tetelek - index
+title: BME tetelek - index
 ---
 
 <div class='pure-menu pure-menu-horizontal'>
@@ -20,7 +20,7 @@ title: BME-VIK tetelek - index
       <tr>
           <td>{{ repo.name }}</td>
           <td>{% if repo.website %}<a href='{{ repo.website }}' class='pure-button pure-button-primary'>website</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>No website</a>{% endif %}</td>
-          <td><a href='https://github.com/bme-vik/{{ repo.repo }}' class='pure-button pure-button-primary'>repository</a></td>
+          <td><a href='https://github.com/bme-notes/{{ repo.repo }}' class='pure-button pure-button-primary'>repository</a></td>
           <td><span id='data-{{ repo.shortname }}'>loading PDF...</span></td>
       </tr>
     {% endfor %}
