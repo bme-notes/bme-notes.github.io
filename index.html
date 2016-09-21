@@ -17,7 +17,7 @@ title: BME tetelek - index
   <table class='pure-table pure-table-bordered pure-table-striped'>
     <tbody>
     {% for repo in category.repositories %}
-      <tr>
+      <tr id='{{ repo.shortname }}'>
           <td>{{ repo.name }}</td>
           <td>{% if repo.website %}<a href='{{ repo.website }}' class='pure-button pure-button-primary'>website</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>No website</a>{% endif %}</td>
           <td><a href='https://github.com/bme-notes/{{ repo.repo }}' class='pure-button pure-button-primary'>repository</a></td>
