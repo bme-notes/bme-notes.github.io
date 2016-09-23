@@ -8,13 +8,13 @@ function loadRelease(repo, shortname) {
       let url = assets[0].browser_download_url;
       let date = new Date(data.published_at);
       if (url != null) {
-        container.innerHTML = "<a href='" + url + "' class='pure-button pure-button-primary'>Download PDF (" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ")</a>";
+        container.innerHTML = "<a href='" + url + "' class='pure-button pure-button-primary'>PDF (" + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " + date.getHours() + ":" + date.getMinutes() + ")</a>";
       } else {
-        container.innerHTML = "<a class='pure-button pure-button-disabled' href='#'>An error occurred</a>";
+        container.innerHTML = "<a class='pure-button pure-button-disabled' href='#'>hiba történt</a>";
       }
     },
     error: function() {
-      container.innerHTML = "<a class='pure-button pure-button-disabled' href='#'>No release</a>";
+      container.innerHTML = "<a class='pure-button pure-button-disabled' href='#'>nincs PDF</a>";
     }
   });
 }

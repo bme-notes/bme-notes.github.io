@@ -1,9 +1,9 @@
 categories:
-  - title: computer-engineering
+  - title: mérnökinformatikus
     repositories:
       - name: Analízis 1.
         shortname: anal1
-        repo:
+        repo: anal1
         semester: 1
         official-note:
         website:
@@ -11,29 +11,29 @@ categories:
         shortname: bsz1
         repo: Bsz1-tetelek
         semester: 1
-        official-note:
+        official-note: http://cs.bme.hu/bsz1/jegyzet/bsz1_jegyzet.pdf
         website: http://cs.bme.hu/bsz1/
       - name: Fizika 1.
         shortname: fiz1i
-        repo:
+        repo: fiz1i
         semester: 1
         official-note:
         website:
       - name: Digitális technika
         shortname: digit
-        repo:
+        repo: digit
         semester: 1
         official-note:
         website:
       - name: A programozás alapjai 1.
         shortname: prog1i
-        repo:
+        repo: prog1i
         semester: 1
         official-note:
         website:
       - name: Analízis 2.
         shortname: anal2
-        repo:
+        repo: anal2
         semester: 2
         official-note:
         website:
@@ -45,167 +45,167 @@ categories:
         website: http://cs.bme.hu/bsz2/
       - name: Fizika 2.
         shortname: fiz2i
-        repo:
+        repo: fiz2i
         semester: 2
         official-note:
         website:
       - name: A programozás alapjai 2.
         shortname: prog2i
-        repo:
+        repo: prog2i
         semester: 2
         official-note:
         website:
       - name: Rendszermodellezés
         shortname: remo
-        repo:
+        repo: remo
         semester: 2
         official-note:
         website:
       - name: Számítógép-architektúrák
         shortname: szar
-        repo:
+        repo: szar
         semester: 2
         official-note:
         website:
       - name: A programozás alapjai 3.
         shortname: prog3i
-        repo:
+        repo: prog3i
         semester: 3
         official-note:
         website:
       - name: Valószínűségszámítás
         shortname: valszam
-        repo:
+        repo: valszam
         semester: 3
         official-note:
         website:
       - name: Kódolástechnika
         shortname: kodtech
-        repo:
+        repo: kodtech
         semester: 3
         official-note:
         website:
       - name: Rendszerelmélet
         shortname: jelek
-        repo:
+        repo: jelek
         semester: 3
         official-note:
         website:
       - name: Kommunikációs hálózatok 1
         shortname: halok1
-        repo:
+        repo: halok1
         semester: 3
         official-note:
         website:
       - name: Adatbázisok
         shortname: adatb
-        repo:
+        repo: adatb
         semester: 3
         official-note:
         website:
       - name: Szoftvertechnológia
         shortname: szofttech
-        repo:
+        repo: szofttech
         semester: 3
         official-note:
         website:
       - name: Algoritmuselmélet
         shortname: algel
-        repo:
+        repo: algel
         semester: 4
         official-note:
         website:
       - name: Menedzsment és vállalkozásgazdaságtan
         shortname: menval
-        repo:
+        repo: menval
         semester: 4
         official-note:
         website:
       - name: Kommunikációs hálózatok 2
         shortname: halok2
-        repo:
+        repo: halok2
         semester: 4
         official-note:
         website:
       - name: Operációs rendszerek
         shortname: opre
-        repo:
+        repo: opre
         semester: 4
         official-note:
         website:
       - name: Adatbázisok laboratórium
         shortname: adatblab
-        repo:
+        repo: adatblab
         semester: 4
         official-note:
         website:
       - name: Szoftvertechnikák
         shortname: sznikak
-        repo:
+        repo: sznikak
         semester: 4
         official-note:
         website:
       - name: Szoftver projekt laboratórium
         shortname: projlab
-        repo:
+        repo: projlab
         semester: 4
         official-note:
         website:
       - name: Számítógépes grafika
         shortname: grafika
-        repo:
+        repo: grafika
         semester: 4
         official-note:
         website:
       - name: Mikro- és makroökonómia
         shortname: mikmak
-        repo:
+        repo: mikmak
         semester: 5
         official-note:
         website:
       - name: Üzleti jog
         shortname: uzletijog
-        repo:
+        repo: uzletijog
         semester: 5
         official-note:
         website:
       - name: IT eszközök technológiája
         shortname: elektro
-        repo:
+        repo: elektro
         semester: 5
         official-note:
         website:
       - name: Mobil és webes szoftverek
         shortname: mobilweb
-        repo:
+        repo: mobilweb
         semester: 5
         official-note:
         website:
       - name: Mesterséges intelligencia
         shortname: mi
-        repo:
+        repo: mi
         semester: 5
         official-note:
         website:
       - name: IT biztonság
         shortname: itbizt
-        repo:
+        repo: itbizt
         semester: 6
         official-note:
         website:
       - name: Információs rendszerek üzemeltetése
         shortname: iru
-        repo:
+        repo: iru
         semester: 6
         official-note:
         website:
-  - title: electrical-engineering
+  - title: villamosmérnök
     repositories:
-  - title: common
+  - title: közös
     repositories:
       - name: Mérnök leszek
         shortname: mernokleszek
-        repo:
+        repo: mernokleszek
         semester: 1
         official-note:
         website:
