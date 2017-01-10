@@ -12,9 +12,6 @@ title: BME tetelek - index
 </div>
 
 {% for category in site.data.repositories.categories %}
-  {% if forloop.first %}
-  <hr>
-  {% endif %}
   <h1 id='{{ category.title }}'>{{ category.title }}</h1>
   <table class='pure-table pure-table-bordered pure-table-striped'>
     <tbody>
@@ -24,7 +21,7 @@ title: BME tetelek - index
           <td>{% if repo.website %}<a href='{{ repo.website }}' class='pure-button pure-button-primary'>tárgyoldal</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs tárgyoldal</a>{% endif %}</td>
           <td><a href='https://github.com/bme-notes/{{ repo.repo }}' class='pure-button pure-button-primary'>repository</a></td>
           <td><span id='data-{{ repo.shortname }}'><a class='pure-button pure-button-disabled' href='#'>PDF betöltése...</a></span></td>
-          <td>{% if repo.official-note %}<a href='{{ repo.official-note }}' class='pure-button pure-button-primary'>hivatalos jegyzet</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs hivatalos jegyzet</a>{% endif %}</td>
+          <td>{% if repo.official-note %}<a href='{{ repo.official-note }}' class='pure-button pure-button-primary'>{% if repo.official-description %}{{ repo.official-description }}{% else %}hivatalos jegyzet{% endif %}</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs hivatalos jegyzet</a>{% endif %}</td>
       </tr>
     {% endfor %}
     </tbody>

@@ -5,7 +5,7 @@ categories:
         shortname: anal1
         repo: anal1
         semester: 1
-        official-note:
+        official-note: http://math.bme.hu/~tasnadi/merninf_anal_1/anal1_elm.pdf
         website: http://math.bme.hu/~tasnadi/merninf_anal_1/
       - name: Bevezetés a Számításelméletbe 1.
         shortname: bsz1
@@ -17,67 +17,72 @@ categories:
         shortname: fiz1i
         repo: fiz1i
         semester: 1
-        official-note:
+        official-description: "fizipedia jegyzet"
+        official-note: http://fizipedia.bme.hu/index.php/Fizika_1i_-_M%C3%A9rn%C3%B6k_informatikus_alapszak#Tematika
         website: http://fizipedia.bme.hu/index.php/Fizika_1i_-_M%C3%A9rn%C3%B6k_informatikus_alapszak
       - name: Digitális technika
         shortname: digit
         repo: digit
         semester: 1
-        official-note:
+        official-description: "előadások"
+        official-note: http://www.mit.bme.hu/oktatas/targyak/vimiaa01/jegyzetek
         website: http://www.mit.bme.hu/oktatas/targyak/vimiaa01
       - name: A programozás alapjai 1.
         shortname: prog1i
         repo: prog1i
         semester: 1
-        official-note:
+        official-note: https://infoc.eet.bme.hu/
         website: https://infoc.eet.bme.hu/
       - name: Analízis 2.
         shortname: anal2
         repo: anal2
         semester: 2
-        official-note:
+        official-note: http://tankonyvtar.ttk.bme.hu/searchp.jsp?bookId=143
         website: http://math.bme.hu/~tasnadi/merninf_anal_2/
       - name: Bevezetés a Számításelméletbe 2.
         shortname: bsz2
         repo: Bsz2-tetelek
         semester: 2
-        official-note:
+        official-note: http://cs.bme.hu/bsz2/#jegyzet
         website: http://cs.bme.hu/bsz2/
       - name: Fizika 2.
         shortname: fiz2i
         repo: fiz2i
         semester: 2
-        official-note:
+        official-description: "fizipedia jegyzet"
+        official-note: http://fizipedia.bme.hu/index.php/Fizika_2i_-_M%C3%A9rn%C3%B6k_informatikus_alapszak#Tematika
         website: http://fizipedia.bme.hu/index.php/Fizika_2i_-_M%C3%A9rn%C3%B6k_informatikus_alapszak
       - name: A programozás alapjai 2.
         shortname: prog2i
         repo: prog2i
         semester: 2
-        official-note:
+        official-description: "előadások"
+        official-note: https://infocpp.iit.bme.hu/tananyag
         website: https://infocpp.iit.bme.hu/
       - name: Rendszermodellezés
         shortname: remo
         repo: remo
         semester: 2
-        official-note:
+        official-note: http://docs.inf.mit.bme.hu/remo-jegyzet/
         website: https://inf.mit.bme.hu/edu/courses/remo
       - name: Számítógép-architektúrák
         shortname: szar
         repo: szar
         semester: 2
-        official-note:
+        official-note: http://www.hit.bme.hu/~ghorvath/szgarch/book/szga.pdf
         website: http://www.hit.bme.hu/~ghorvath/szgarch/
       - name: A programozás alapjai 3.
         shortname: prog3i
         repo: prog3i
         semester: 3
-        official-note:
+        official-description: "előadások"
+        official-note: https://www.iit.bme.hu/~prog3/
         website: https://www.iit.bme.hu/~prog3/
       - name: Valószínűségszámítás
         shortname: valszam
         repo: valszam
         semester: 3
-        official-note:
+        official-note: https://vik.wiki/images/e/e7/Valszam_konyv_olvashato_kela.pdf
         website: http://www.cs.bme.hu/~kela/ind1
       - name: Kódolástechnika
         shortname: kodtech
@@ -107,7 +112,8 @@ categories:
         shortname: szofttech
         repo: szofttech
         semester: 3
-        official-note:
+        official-description: "előadások"
+        official-note: https://www.iit.bme.hu/~stuser/temp/stbelso.html
         website: https://www.iit.bme.hu/~stuser/
       - name: Algoritmuselmélet
         shortname: algel
@@ -120,18 +126,20 @@ categories:
         repo: menval
         semester: 4
         official-note:
-        website: 
+        website:
       - name: Kommunikációs hálózatok 2
         shortname: halok2
         repo: halok2
         semester: 4
-        official-note:
+        official-description: "előadások"
+        official-note: http://w3.tmit.bme.hu/kh2/
         website: http://w3.tmit.bme.hu/kh2/
       - name: Operációs rendszerek
         shortname: opre
         repo: opre
         semester: 4
-        official-note:
+        official-description: "előadások"
+        official-note: http://www.mit.bme.hu/oktatas/targyak/vimiab00/jegyzetek
         website: http://www.mit.bme.hu/oktatas/targyak/vimiab00
       - name: Adatbázisok laboratórium
         shortname: adatblab
@@ -143,7 +151,8 @@ categories:
         shortname: sznikak
         repo: sznikak
         semester: 4
-        official-note:
+        official-description: "előadások"
+        official-note: https://www.aut.bme.hu/Course/VIAUAB00
         website: https://www.aut.bme.hu/Course/VIAUAB00
       - name: Szoftver projekt laboratórium
         shortname: projlab
@@ -155,14 +164,15 @@ categories:
         shortname: grafika
         repo: grafika
         semester: 4
-        official-note:
+        official-description: "előadások"
+        official-note: http://cg.iit.bme.hu/portal/szamitogepes-grafika
         website: http://cg.iit.bme.hu/portal/szamitogepes-grafika
       - name: Mikro- és makroökonómia
         shortname: mikmak
         repo: mikmak
         semester: 5
         official-note:
-        website: 
+        website:
       - name: Üzleti jog
         shortname: uzletijog
         repo: uzletijog
@@ -185,7 +195,8 @@ categories:
         shortname: mi
         repo: mi
         semester: 5
-        official-note:
+        official-description: "előadások, almanach"
+        official-note: http://www.mit.bme.hu/oktatas/targyak/vimiac00/eloadasanyagok-jegyzetek
         website: http://www.mit.bme.hu/oktatas/targyak/vimiac00
       - name: IT biztonság
         shortname: itbizt
