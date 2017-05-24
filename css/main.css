@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 1em 10%;
+}
+
+.pure-menu {
+  font-variant: small-caps;
+  font-size: 1.2em;
+}
+
+table {
+  max-width: 80%;
+  text-align: center;
+}
+
+.subject-name {
+  text-align: left;
+}
+
+hr {
+  border-top: 2px solid #f2f2f2;
+  border-width: 2px 0 0 0;
+  height: 0;
+  margin: 4vh;
+}
+
+h1, h2, h3 {
+  text-align: left;
+}
+
+p {
+  max-width: 100ch;
+  text-align: justify;
+}
+
+code {
+  background-color: #dddddd;
+  padding: 0.2em;
+}
