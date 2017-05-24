@@ -1,6 +1,6 @@
 ---
 layout: index
-title: BME tetelek - Rolunk
+title: Rólunk
 ---
 
 # Az oldalról
