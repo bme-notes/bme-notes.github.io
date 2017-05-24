@@ -9,7 +9,7 @@ categories:
         website: http://math.bme.hu/~tasnadi/merninf_anal_1/
       - name: Bevezetés a Számításelméletbe 1.
         shortname: bsz1
-        repo: Bsz1-tetelek
+        repo: bsz1
         semester: 1
         official-note: http://cs.bme.hu/bsz1/jegyzet/bsz1_jegyzet.pdf
         website: http://cs.bme.hu/bsz1/
@@ -41,7 +41,7 @@ categories:
         website: http://math.bme.hu/~tasnadi/merninf_anal_2/
       - name: Bevezetés a Számításelméletbe 2.
         shortname: bsz2
-        repo: Bsz2-tetelek
+        repo: bsz2
         semester: 2
         official-note: http://cs.bme.hu/bsz2/#jegyzet
         website: http://cs.bme.hu/bsz2/
@@ -167,18 +167,6 @@ categories:
         official-description: "előadások"
         official-note: http://cg.iit.bme.hu/portal/szamitogepes-grafika
         website: http://cg.iit.bme.hu/portal/szamitogepes-grafika
-      - name: Mikro- és makroökonómia
-        shortname: mikmak
-        repo: mikmak
-        semester: 5
-        official-note:
-        website:
-      - name: Üzleti jog
-        shortname: uzletijog
-        repo: uzletijog
-        semester: 5
-        official-note:
-        website:
       - name: IT eszközök technológiája
         shortname: elektro
         repo: elektro
@@ -202,14 +190,16 @@ categories:
         shortname: itbizt
         repo: itbizt
         semester: 6
-        official-note:
-        website:
+        official-description: "előadások"
+        official-note: http://www.crysys.hu/education/VIHIAC01
+        website: http://www.crysys.hu/education/VIHIAC01
       - name: Információs rendszerek üzemeltetése
         shortname: iru
         repo: iru
         semester: 6
-        official-note:
-        website:
+        official-description: "előadások"
+        official-note: https://www.tmit.bme.hu/iru2017
+        website: http://www.medialab.bme.hu/course/VITMA314::VITMAC02
   - title: villamosmérnök
     repositories:
   - title: közös
@@ -218,5 +208,17 @@ categories:
         shortname: mernokleszek
         repo: mernokleszek
         semester: 1
+        official-note:
+        website:
+      - name: Mikro- és makroökonómia
+        shortname: mikmak
+        repo: mikmak
+        semester: 5
+        official-note:
+        website:
+      - name: Üzleti jog
+        shortname: uzletijog
+        repo: uzletijog
+        semester: 5
         official-note:
         website:
