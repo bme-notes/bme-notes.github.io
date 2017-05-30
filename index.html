@@ -21,7 +21,7 @@ title: Jegyzetek
       <tr id='{{ repo.shortname }}'>
           <td class='subject-name'>{{ repo.name }}</td>
           <td>{% if repo.website %}<a href='{{ repo.website }}' class='pure-button pure-button-primary'>tárgyoldal</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs tárgyoldal</a>{% endif %}</td>
-          <td><a href='https://github.com/bme-notes/{{ repo.repo }}' class='pure-button pure-button-primary'>repository</a></td>
+          <td><a href='https://github.com/bme-notes/{{ repo.repo }}/releases' class='pure-button pure-button-primary'>repository</a></td>
           <td><span id='data-{{ repo.shortname }}'><a class='pure-button pure-button-disabled' href='#'>PDF betöltése...</a></span></td>
           <td>{% if repo.official-note %}<a href='{{ repo.official-note }}' class='pure-button pure-button-primary'>{% if repo.official-description %}{{ repo.official-description }}{% else %}hivatalos jegyzet{% endif %}</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs hivatalos jegyzet</a>{% endif %}</td>
       </tr>
