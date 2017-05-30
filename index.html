@@ -11,7 +11,7 @@ title: Jegyzetek
   </ul>
 </div>
 
-<p>Ha nem töltenek be a pdf-ek, nézz szét az adott repositoryban a releasek közt, lehet hogy a github api limitjét túlléptük!</p>
+<p id='rate-notice'></p>
 
 {% for category in site.data.repositories.categories %}
   <h1 id='{{ category.title }}'>{{ category.title }}</h1>
@@ -32,6 +32,7 @@ title: Jegyzetek
 
 <script src='main.js'></script>
 <script>
+  getRequestCount();
   {% for category in site.data.repositories.categories %}
     {% for repo in category.repositories %}
       loadRelease("{{ repo.repo }}", "{{ repo.shortname }}");

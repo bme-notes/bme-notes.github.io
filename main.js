@@ -1,3 +1,23 @@
+function getRequestCount() {
+  let notice = document.getElementById("rate-notice");
+  $.ajax({
+    url: "https://api.github.com/rate_limit",
+    dataType: "json",
+    success: function(data) {
+      console.log(data.rate.limit);
+      if (data.rate.limit > 0) {
+        notice.style.display = "none";
+      } else {
+        notice.innerHTML = "Túlléptük a GitHub API limitjét, kérlek látogass el a repositorykhoz a legújabb PDF-ekért.";
+      }
+      notice.innerHTML = data.rate.limit;
+    },
+    error: function() {
+      notice.innerHTML = "Hiba történt az adatok lekérése közben, az oldal esetleg hibásan működhet, kérlek látogass el a repositorykhoz a legújabb PDF-ekért.";
+    }
+  });
+}
+
 function loadRelease(repo, shortname) {
   let container = document.getElementById("data-" + shortname);
   $.ajax({
