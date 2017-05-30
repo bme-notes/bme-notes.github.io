@@ -4,13 +4,12 @@ function getRequestCount() {
     url: "https://api.github.com/rate_limit",
     dataType: "json",
     success: function(data) {
-      console.log(data.rate.limit);
-      if (data.rate.limit > 0) {
+      console.log(data.rate.remaining);
+      if (data.rate.remaining > 0) {
         notice.style.display = "none";
       } else {
         notice.innerHTML = "Túlléptük a GitHub API limitjét, kérlek látogass el a repositorykhoz a legújabb PDF-ekért.";
       }
-      notice.innerHTML = data.rate.limit;
     },
     error: function() {
       notice.innerHTML = "Hiba történt az adatok lekérése közben, az oldal esetleg hibásan működhet, kérlek látogass el a repositorykhoz a legújabb PDF-ekért.";
