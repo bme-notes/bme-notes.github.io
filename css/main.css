@@ -33,6 +33,13 @@ p {
   text-align: justify;
 }
 
+#rate-notice {
+  border: 2px solid red;
+  display: none;
+  padding: 0.2em;
+  margin-top: 1em;
+}
+
 code {
   background-color: #dddddd;
   padding: 0.2em;

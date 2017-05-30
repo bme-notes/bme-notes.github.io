@@ -5,10 +5,9 @@ function getRequestCount() {
     dataType: "json",
     success: function(data) {
       console.log(data.rate.remaining);
-      if (data.rate.remaining > 0) {
-        notice.style.display = "none";
-      } else {
+      if (data.rate.remaining == 0) {
         notice.innerHTML = "Túlléptük a GitHub API limitjét, kérlek látogass el a repositorykhoz a legújabb PDF-ekért.";
+        notice.style.display = "inline-block";
       }
     },
     error: function() {
