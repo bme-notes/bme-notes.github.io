@@ -1,6 +1,6 @@
 let releaseData = [];
 let loadSuccess = false;
-let apiAddress = "http://localhost:5000";
+let apiAddress = "https://wren.ml:5000";
 
 function loadReleaseData() {
   let notice = document.getElementById("rate-notice");
