@@ -27,7 +27,7 @@ A LateX környezet telepítése aránylag körülményes és sok helyet foglal, 
 
 ## Pull requestek
 
-Alapesetben úgy tudsz egy jegyzethez módosítási javaslatot beküldeni, hogy forkolod a megfelelő repositorynkat, majd oda commitolod a változtatásaidat, ezek után beküldesz egy pull requestet. Ezt egy erre jogosult ember fogja elbírálni, és ha konstruktívnak tartja a változatást, azt be is mergeli az eredeti verzióba.
+Alapesetben úgy tudsz egy jegyzethez vagy az oldalhoz módosítási javaslatot beküldeni, hogy forkolod a megfelelő repositorynkat, majd oda commitolod a változtatásaidat, ezek után beküldesz egy pull requestet. Ezt egy erre jogosult ember fogja elbírálni, és ha konstruktívnak tartja a változatást, azt be is mergeli az eredeti verzióba.
 
 A pull requestekről részletesebben [itt](https://help.github.com/articles/about-pull-requests/) olvashatsz.
 
