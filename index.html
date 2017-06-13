@@ -18,11 +18,11 @@ title: Jegyzetek
   <table class='pure-table pure-table-bordered pure-table-striped'>
     <tbody>
     {% for subject in site.data[category.file] %}
-      <tr id='{{ subject.shortname }}'>
+      <tr id='{{ subject.repo }}'>
           <td class='subject-name'>{{ subject.name }}</td>
           <td>{% if subject.website %}<a href='{{ subject.website }}' class='pure-button pure-button-primary'>tárgyoldal</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs tárgyoldal</a>{% endif %}</td>
           <td><a href='https://github.com/bme-notes/{{ subject.repo }}/releases' class='pure-button pure-button-primary'>repository</a></td>
-          <td><span id='data-{{ subject.shortname }}'><a class='pure-button pure-button-disabled' href='#'>nincs PDF</a></span></td>
+          <td><span id='data-{{ subject.repo }}'><a class='pure-button pure-button-disabled' href='#'>nincs PDF</a></span></td>
           <td>{% if subject.official-note %}<a href='{{ subject.official-note }}' class='pure-button pure-button-primary'>{% if subject.official-description %}{{ subject.official-description }}{% else %}hivatalos jegyzet{% endif %}</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs hivatalos jegyzet</a>{% endif %}</td>
       </tr>
     {% endfor %}
