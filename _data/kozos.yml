@@ -1,0 +1,24 @@
+- name: Mérnök leszek
+  shortname: mernokleszek
+  repo: mernokleszek
+  semester: 1
+  official-note:
+  website:
+- name: Menedzsment és vállalkozásgazdaságtan
+  shortname: menval
+  repo: menval
+  semester: 4
+  official-note:
+  website:
+- name: Mikro- és makroökonómia
+  shortname: mikmak
+  repo: mikmak
+  semester: 5
+  official-note:
+  website:
+- name: Üzleti jog
+  shortname: uzletijog
+  repo: uzletijog
+  semester: 5
+  official-note:
+  website:

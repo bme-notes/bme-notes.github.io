@@ -13,22 +13,23 @@ title: Jegyzetek
 
 <div id='rate-notice'></div>
 
-{% for category in site.data.repositories.categories %}
+{% for category in site.data.categories %}
   <h1 id='{{ category.title }}'>{{ category.title }}</h1>
   <table class='pure-table pure-table-bordered pure-table-striped'>
     <tbody>
-    {% for repo in category.repositories %}
-      <tr id='{{ repo.shortname }}'>
-          <td class='subject-name'>{{ repo.name }}</td>
-          <td>{% if repo.website %}<a href='{{ repo.website }}' class='pure-button pure-button-primary'>tárgyoldal</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs tárgyoldal</a>{% endif %}</td>
-          <td><a href='https://github.com/bme-notes/{{ repo.repo }}/releases' class='pure-button pure-button-primary'>repository</a></td>
-          <td><span id='data-{{ repo.shortname }}'><a class='pure-button pure-button-disabled' href='#'>nincs PDF</a></span></td>
-          <td>{% if repo.official-note %}<a href='{{ repo.official-note }}' class='pure-button pure-button-primary'>{% if repo.official-description %}{{ repo.official-description }}{% else %}hivatalos jegyzet{% endif %}</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs hivatalos jegyzet</a>{% endif %}</td>
+    {% for subject in site.data[category.file] %}
+      <tr id='{{ subject.shortname }}'>
+          <td class='subject-name'>{{ subject.name }}</td>
+          <td>{% if subject.website %}<a href='{{ subject.website }}' class='pure-button pure-button-primary'>tárgyoldal</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs tárgyoldal</a>{% endif %}</td>
+          <td><a href='https://github.com/bme-notes/{{ subject.repo }}/releases' class='pure-button pure-button-primary'>repository</a></td>
+          <td><span id='data-{{ subject.shortname }}'><a class='pure-button pure-button-disabled' href='#'>nincs PDF</a></span></td>
+          <td>{% if subject.official-note %}<a href='{{ subject.official-note }}' class='pure-button pure-button-primary'>{% if subject.official-description %}{{ subject.official-description }}{% else %}hivatalos jegyzet{% endif %}</a>{% else %}<a class='pure-button pure-button-disabled' href='#'>nincs hivatalos jegyzet</a>{% endif %}</td>
       </tr>
     {% endfor %}
     </tbody>
   </table>
 {% endfor %}
+
 
 <script src='main.js'></script>
 <script>
