@@ -1,6 +1,59 @@
+- name: A számítástudomány alapjai
+  shortname: szamtud
+  repo: szamtud
+  semester: 1
+  official-description: "Fleiner-féle NESZ"
+  official-note: http://www.cs.bme.hu/~fleiner/jegyzet/NESZ.pdf
+  website: http://www.cs.bme.hu/~kiskat/sza/index.html
+- name: A programozás alapjai 1
+  shortname: prog1v
+  repo: prog1v
+  semester: 1
+  official-description: "előadások"
+  official-note: http://www.hit.bme.hu/~zsoka/oktat/2016-17-I/vihiaa01/ea/vihiaa01_ea.php
+  website: http://www.hit.bme.hu/~zsoka/vihiaa01.php
+- name: Digitális technika 1
+  shortname: digit1
+  repo: digit1
+  semester: 1
+  official-note: https://www.iit.bme.hu/oktatas/tanszeki_targyak/BMEVIIIAA01
+  website: 
+- name: Fizika 1
+  shortname: fiz1v
+  repo: fiz1v
+  semester: 1
+  official-description: "gyakorlatok"
+  official-note: http://fizipedia.bme.hu/index.php/Fizika_1_-_Villamosmérnöki_alapszak#Sz.C3.A1mol.C3.A1si_gyakorlatok
+  website: http://fizipedia.bme.hu/index.php/Fizika_1_-_Villamosm%C3%A9rn%C3%B6ki_alapszak
+- name: Matematika A1a - Analízis
+  shortname: mateka1v
+  repo: mateka1v
+  semester: 1
+  website: http://math.bme.hu/~pitrik/
+- name: A programozás alapjai 2
+  shortname: prog2v
+  repo: prog2v
+  semester: 2
+  official-description: "előadás, gyakorlat, labor"
+  official-note: https://www.aut.bme.hu/Course/VIAUA116
+  website: https://www.aut.bme.hu/Course/VIAUA116
 - name: Digitális technika 2
+  shortname: digit2
   repo: digit2
   semester: 2
-  official-description: ""
-  official-note:
-  website:
+  website: https://www.iit.bme.hu/oktatas/tanszeki_targyak/BMEVIIIAA02
+- name: Fizika 2
+  shortname: fiz2v
+  repo: fiz2v
+  semester: 2
+  website: http://fizipedia.phy.bme.hu/index.php/Fizika_2_-_Villamosmérnöki_alapszak
+- name: Jelek és rendszerek 1
+  shortname: jelek1
+  repo: jelek1
+  semester: 2
+  website: https://fourier.hvt.bme.hu/course/view.php?id=13
+- name: Matematika A2f - Vektorfüggvények
+  shortname: mateka2v
+  repo: mateka2v
+  semester: 2 
+  website: http://math.bme.hu/~pitrik/
