@@ -59,3 +59,42 @@
   repo: mateka2v
   semester: 2 
   website: http://math.bme.hu/~pitrik/
+  ==============================================
+- name: Elektronika 1
+  shortname: elektro1
+  repo: elektro1
+  semester: 3
+  official-description: "jegyzet"
+  official-note: http://www.hit.bme.hu/~gaal/elektronika/Elektronika1.pdf
+  website: http://www.hit.bme.hu/~gaal/elektronika/elektronika.html
+- name: Elektronikai technológia és anyagismeret
+  shortname: eta
+  repo: eta
+  semester: 3
+  official-description: "jegyzet (diasor)"
+  official-note: http://www.ett.bme.hu/oktatas/vietab00
+  website: http://www.ett.bme.hu/oktatas/vietab00
+- name: Elektrotechnika
+  shortname: etech
+  repo: etech
+  semester: 3
+  official-description: "előadások"
+  official-note: https://vet.bme.hu/?q=tantargyak/elektrotechnika
+  website: https://vet.bme.hu/?q=tantargyak/elektrotechnika
+- name: Jelek és rendszerek 2
+  shortname: jelek2
+  repo: jelek2
+  semester: 3
+  website: https://fourier.hvt.bme.hu/course/view.php?id=27
+- name: Matematika A3 villamosmérnököknek
+  shortname: mateka3
+  repo: mateka3
+  semester: 3
+  website: http://math.bme.hu/~pitrik/
+- name: Matematika A4 - Valószínűségszámítás
+  shortname: valszam
+  repo: mateka4
+  semester: 3
+  website: http://math.bme.hu/~vetier/A4_vill.html
+  official-description: "előadások"
+  official-note: http://math.bme.hu/~vetier/A4_vill.html
