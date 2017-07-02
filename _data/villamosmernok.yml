@@ -118,7 +118,7 @@
   official-description: "jegyzet"
   official-note: https://www.aut.bme.hu/Course/VIAUAB01
   website: https://www.aut.bme.hu/Course/VIAUAB01
-- name: https://vik.wiki/Méréstechnika
+- name: Méréstechnika
   shortname: merestech
   repo: merestech
   semester: 4
