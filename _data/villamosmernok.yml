@@ -9,7 +9,7 @@
   shortname: prog1v
   repo: prog1v
   semester: 1
-  official-description: "előadások"
+  official-description: "előadás, gyakorlat, labor"
   official-note: http://www.hit.bme.hu/~zsoka/oktat/2016-17-I/vihiaa01/ea/vihiaa01_ea.php
   website: http://www.hit.bme.hu/~zsoka/vihiaa01.php
 - name: Digitális technika 1
@@ -46,6 +46,8 @@
   shortname: fiz2v
   repo: fiz2v
   semester: 2
+  official-description: "gyakorlatok"
+  official-note: http://fizipedia.phy.bme.hu/index.php/Fizika_2_-_Villamosmérnöki_alapszak
   website: http://fizipedia.phy.bme.hu/index.php/Fizika_2_-_Villamosmérnöki_alapszak
 - name: Jelek és rendszerek 1
   shortname: jelek1
