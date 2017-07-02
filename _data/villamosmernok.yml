@@ -94,6 +94,53 @@
   shortname: valszam
   repo: mateka4
   semester: 3
-  website: http://math.bme.hu/~vetier/A4_vill.html
   official-description: "előadások"
   official-note: http://math.bme.hu/~vetier/A4_vill.html
+  website: http://math.bme.hu/~vetier/A4_vill.html
+- name: Infokommunikáció
+  shortname: infokomm
+  repo: infokomm
+  semester: 4
+  official-description: "gyakorlatok"
+  official-note: http://alpha.tmit.bme.hu/vitmab03/
+  website: http://alpha.tmit.bme.hu/vitmab03/
+- name: Informatika 1
+  shortname: info1
+  repo: info1
+  semester: 4
+  official-description: "előadás, gyakorlat"
+  official-note: https://www.iit.bme.hu/oktatas/tanszeki_targyak/BMEVIIIAB04
+  website: https://www.iit.bme.hu/oktatas/tanszeki_targyak/BMEVIIIAB04
+- name: Informatika 2
+  shortname: info2
+  repo: info2
+  semester: 4
+  official-description: "jegyzet"
+  official-note: https://www.aut.bme.hu/Course/VIAUAB01
+  website: https://www.aut.bme.hu/Course/VIAUAB01
+- name: https://vik.wiki/Méréstechnika
+  shortname: merestech
+  repo: merestech
+  semester: 4
+  website: http://www.mit.bme.hu/oktatas/targyak/VIMIAB01
+- name: Mikroelektronika
+  shortname: mikro
+  repo: mikro
+  semester: 4
+  official-description: "előadások"
+  official-note: https://edu.eet.bme.hu/course/view.php?id=117
+  website: https://edu.eet.bme.hu/course/view.php?id=117
+- name: Szabályozástechnika
+  shortname: szabtech
+  repo: szabtech
+  semester: 4
+  official-description: "előadás, gyakorlat"
+  official-note: https://www.iit.bme.hu/targyak/BMEVIIIAB05
+  website: https://www.iit.bme.hu/targyak/BMEVIIIAB05
+- name: Villamos energetika
+  shortname: villenerg
+  repo: villenerg
+  semester: 4
+  official-description: "előadás, gyakorlat"
+  official-note: https://vet.bme.hu/?q=tantargyak/villamos-energetika
+  website: https://vet.bme.hu/?q=tantargyak/villamos-energetika5
