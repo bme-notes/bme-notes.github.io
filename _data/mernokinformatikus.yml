@@ -8,6 +8,7 @@
   semester: 1
   official-note: http://cs.bme.hu/bsz1/jegyzet/bsz1_jegyzet.pdf
   website: http://cs.bme.hu/bsz1/
+  pdf: true
 - name: Fizika 1.
   repo: fiz1i
   semester: 1
@@ -30,11 +31,13 @@
   semester: 2
   official-note: http://tankonyvtar.ttk.bme.hu/searchp.jsp?bookId=143
   website: http://math.bme.hu/~tasnadi/merninf_anal_2/
+  pdf: true
 - name: Bevezetés a Számításelméletbe 2.
   repo: bsz2
   semester: 2
   official-note: http://cs.bme.hu/bsz2/#jegyzet
   website: http://cs.bme.hu/bsz2/
+  pdf: true
 - name: Fizika 2.
   repo: fiz2i
   semester: 2
@@ -68,11 +71,13 @@
   semester: 3
   official-note: https://vik.wiki/images/e/e7/Valszam_konyv_olvashato_kela.pdf
   website: http://www.cs.bme.hu/~kela/ind1
+  pdf: true
 - name: Kódolástechnika
   repo: kodtech
   semester: 3
   official-note:
   website: http://www.hit.bme.hu/~ceffer/kodtech/
+  pdf: true
 - name: Rendszerelmélet
   repo: jelek
   semester: 3
@@ -88,17 +93,20 @@
   semester: 3
   official-note:
   website: https://www.db.bme.hu/targyak/adatbazisok
+  pdf: true
 - name: Szoftvertechnológia
   repo: szofttech
   semester: 3
   official-description: "előadások"
   official-note: https://www.iit.bme.hu/~stuser/temp/stbelso.html
   website: https://www.iit.bme.hu/~stuser/
+  pdf: true
 - name: Algoritmuselmélet
   repo: algel
   semester: 4
   official-note:
   website: http://cs.bme.hu/algel/
+  pdf: true
 - name: Kommunikációs hálózatok 2
   repo: halok2
   semester: 4

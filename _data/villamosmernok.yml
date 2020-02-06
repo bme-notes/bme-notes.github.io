@@ -17,7 +17,7 @@
   repo: digit1
   semester: 1
   official-note: https://www.iit.bme.hu/oktatas/tanszeki_targyak/BMEVIIIAA01
-  website: 
+  website:
 - name: Fizika 1
   shortname: fiz1v
   repo: fiz1v
@@ -42,6 +42,7 @@
   repo: digit2
   semester: 2
   website: https://www.iit.bme.hu/oktatas/tanszeki_targyak/BMEVIIIAA02
+  pdf: true
 - name: Fizika 2
   shortname: fiz2v
   repo: fiz2v
@@ -57,7 +58,7 @@
 - name: Matematika A2f - Vektorfüggvények
   shortname: mateka2v
   repo: mateka2v
-  semester: 2 
+  semester: 2
   website: http://math.bme.hu/~pitrik/
 - name: Elektronika 1
   shortname: elektro1
